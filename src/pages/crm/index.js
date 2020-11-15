@@ -1,0 +1,1 @@
+export { PageCRM } from './container';

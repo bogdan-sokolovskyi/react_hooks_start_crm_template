@@ -1,0 +1,30 @@
+.page {
+    flex: auto;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+
+	&__head {
+		position: relative;
+		display: block;
+		margin: 0 0 20px;
+		padding: 0;
+	}
+
+	&__body {
+		flex: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	&--dashboard, &--crm, &--store, &--reports, &--finance, &--directory, &--ui_elements {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+    }
+    h1{
+        font-size: 32px !important;
+    }
+}
