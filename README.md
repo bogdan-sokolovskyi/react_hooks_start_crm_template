@@ -26,8 +26,8 @@ clip < ~/.ssh/id_rsa.pub
 ### 2. Clone a Project from GitHub
 
 ```sh
-git clone git@github.com:bogdan-sokolovskyi/crm_mentor.git
-cd crm_mentor
+git clone git@github.com:bogdan-sokolovskyi/react_hooks_start_crm_template.git
+cd react_hooks_start_crm_template
 npm i
 npm start
 
