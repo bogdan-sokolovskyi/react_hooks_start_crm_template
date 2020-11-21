@@ -12,13 +12,15 @@ Open Git Bash:
 ssh-keygen -t rsa -b 4096 -C "your@email.com"
 
 #start the ssh-agent in the background
-eval $(ssh-agent -s)
+eval $(ssh-agent -s)  #windows git bash
+eval `ssh-agent -s`   #linux
 
 #add your SSH private key to the ssh-agent
 ssh-add ~/.ssh/id_rsa
 
 #copies the contents of the id_rsa.pub file to your clipboard
-clip < ~/.ssh/id_rsa.pub
+clip < ~/.ssh/id_rsa.pub  #windows git bash
+cat ~/.ssh/id_rsa.pub     #linux
 
 #GitHub -> Settings -> SSH and GPG keys -> Add SSH key
 ```
